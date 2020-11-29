@@ -153,8 +153,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/DeBeer_bg3.jpg) content-box center;
-  background-size: cover;
+  background: url(../img/DeBeer_bg3.jpg) content-box center no-repeat;
+  background-size: contain;
   position: relative;
 }
 
@@ -572,9 +572,9 @@ section {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/DeBeer_About.jpg) no-repeat;
+  background: url(../img/DeBeer_About.jpg) content-box center no-repeat;
   background-size: contain;
-  margin-bottom: 10px;
+  position: relative;
 }
 
 #about .about-container .content {
